@@ -15,7 +15,7 @@ Source0: https://github.com/ndias/check_drbd/archive/refs/tags/v%{version}.tar.g
 
 BuildArch: noarch
 
-Requires: /usr/bin/perl
+Requires: /usr/bin/perl, /usr/sbin/drbdadm
 
 %description
 Nagios plugin to check the status of a DRBD device
